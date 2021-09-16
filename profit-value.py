@@ -1,6 +1,6 @@
 import pandas as pd
 #add below path/location where you have saved data.csv
-df = pd.read_csv (r'C:\Users\Hira- Personal\Desktop\data.csv') 
+df = pd.read_csv (r'C:\Users\MyPC\Desktop\data.csv') 
 index=df.index
 numberofrows=len(index)
 print('First Printed Answer:\nTotal Number of rows are=',numberofrows)
@@ -10,7 +10,7 @@ index=adf.index
 numberofrows=len(index)
 
 #add below path/location where you want to save data2.json
-adf.to_json (r'C:\Users\Hira- Personal\Desktop\data2.json')
+adf.to_json (r'C:\Users\MyPC\Desktop\data2.json')
 print('\nSecond Printed Answer:\nTotal Number of rows after removing\nnon-numeric values from profit column are=',numberofrows)
 
 print('\nThird Printed Answer:\nlist of First 20 values by Max profit column')
