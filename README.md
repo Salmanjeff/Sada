@@ -8,6 +8,8 @@
 4. Insert the location in line 4 where you want to save data2.json file.
 5. Click run or press f5.
 6. Click ok to save.
+7. File created data2.json can be viewed online http://jsonviewer.stack.hu/
+8. open data2.json in notepad copy files data and paste on above link and click format.
 # References
 1. https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
 2. https://www.stackoverflow.com
