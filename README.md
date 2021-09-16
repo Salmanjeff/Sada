@@ -1,6 +1,6 @@
 # Highest-Profit
 1. Tested on python IDLE Shell 3.9.7
-2. .bat is not created because then the viewer would have to do changes is this file also, so To keep it simple and not to get into complications there is only one file profitvalue.py to run.
+2. .bat file is not created because then the viewer would have to do changes is this file also, so To keep it simple and not to get into complications there is only one file profitvalue.py to run.
 3. Now Viewer have to edit only profitvalue.py and add path/location.
 # Measures: before running the file:
 1. Download data.csv from https://gist.github.com/bobbae/b4eec5b5cb0263e7e3e63a6806d045f2 as "raw" or you can also download it from the repository.
