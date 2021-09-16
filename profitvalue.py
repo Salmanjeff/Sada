@@ -1,5 +1,6 @@
 import pandas as pd
-df = pd.read_csv (r'C:\Users\mypc\Desktop\data.csv')
+#add below path/location where you have saved data.csv
+df = pd.read_csv (r'C:\Users\mypc\Desktop\data.csv') 
 index=df.index
 numberofrows=len(index)
 print('First Printed Answer:\nTotal Number of rows are=',numberofrows)
@@ -8,6 +9,7 @@ adf=df[pd.to_numeric(df['Profit (in millions)'], errors='coerce').notnull()]
 index=adf.index
 numberofrows=len(index)
 
+#add below path/location where you have saved data2.json
 adf.to_json (r'C:\Users\mypc\Desktop\data2.json')
 print('\nSecond Printed Answer:\nTotal Number of rows after removing\nnon-numeric values from profit coloums are=',numberofrows)
 
