@@ -16,3 +16,5 @@ print('\nSecond Printed Answer:\nTotal Number of rows after removing\nnon-numeri
 print('\nThird Printed Answer:\nlist of First 20 values by Max profit column')
 sd=adf.sort_values('Profit (in millions)', ascending=False).head(20)
 print(sd)
+
+k=input("Type close to exit:") 
