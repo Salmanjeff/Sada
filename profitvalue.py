@@ -13,6 +13,6 @@ numberofrows=len(index)
 adf.to_json (r'C:\Users\mypc\Desktop\data2.json')
 print('\nSecond Printed Answer:\nTotal Number of rows after removing\nnon-numeric values from profit column are=',numberofrows)
 
-print('\nThird Printed Answer:\nlist of First 20 vlaues by Max profit')
+print('\nThird Printed Answer:\nlist of First 20 values by Max profit column')
 sd=adf.sort_values('Profit (in millions)', ascending=False).head(20)
 print(sd)
